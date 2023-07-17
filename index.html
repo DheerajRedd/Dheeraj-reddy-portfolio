@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dheeraj Reddy Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d29940e5e7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="name logo_thumbnail.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#academicprojects">Academic projects</a></li>
+                    <li><a href="#portfolio">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                
+                <p>"A designer knows he has achevied perfection not when there is <br>nothing left to add, but when there is nothing left to take away"</p>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="DR profile.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="about-para">
+                        Graduate student at Northeastern's Software Engineering Systems,  My primary focus is on developing innovative solutions that address real-world problems and make a positive impact on people's lives. With a strong background in Computer Science Engineering, I possess a wide range of skills in software development and Root Cause Analysis.
+                        When it comes to my work ethic, I am known for my deep dive into problem-solving and my unwavering diligence. I am committed to delivering high-quality results and always strive for excellence. I find great satisfaction in challenging myself to find innovative solutions and constantly expanding my knowledge and skill set.Overall, I am a driven individual who is dedicated to making a difference through technology. I am excited about the opportunities that lie ahead in my career, and I look forward to leveraging my expertise to create impactful software solutions.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Java, JavaScript, C#, Phython, PL/SQL, Node.js, React </li>
+                            <li><span>Web and Database</span><br>HTML, CSS, PHP, Bootstrap, REST, MySQL</li>
+                            <li><span>Tools and Frameworks</span><br>Git, Spring MVC, REST</li>
+                            <li><span>Tools and Frameworks</span><br>Git, Apache Spark, Eclipse, Visual Studio</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb 2021 - Dec 2021</span><br>Jr. Software Developer at Hypertune Technolgies</li>
+                            <p>Improved Android application that offers software as a service to simplify management operations like data 
+                                collection, asset tracking, and report generation.
+                                Developed web services, APIs and coordinated with other technical teams for implementation of portal solutions 
+                                to support API Tasks covered while the development process was Designing Database, UI Creation, Backend 
+                                Development, managing Web Services and Deployment of Application, Collection of GPS data to track the live 
+                                location of the user by using Location Manager.
+                                </p>
+                            <li><span>June 2020 - Feb 2021</span><br>Front End Developer at Microbase Computers</li>
+                            <p>
+                                As a frontend development intern for an e-commerce project, I designed and developed responsive web pages using HTML, CSS, and JavaScript. I collaborated with the UX/UI design team to ensure adherence to design specifications. Integration of third-party APIs, including payment gateways and shipping providers, was performed to enable secure online transactions. CSS frameworks like Bootstrap were utilized for enhanced responsiveness across different devices. Git and version control systems were used for efficient collaboration with the development team. Extensive testing and debugging ensured smooth functionality across various browsers and devices. Overall, my role encompassed implementing visual elements, styling, and interactivity to create an appealing and cohesive user experience.
+                            </p>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2023</span><br> MS in Software Engineering Systems at Northeastern
+                                University, Boston</li>
+                                <p>Courses: Data Structures, Object Oriented design using java, Web Designing, Database Structures, UI/UX research, Enterprise Software Design.</p>
+                            <li><span>2016 - 2020</span><br>Bachelors in Information Technology, India</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Academic Projects -->
+<div id="academicprojects">
+    <div class="container">
+        <h1 class="sub-title">Academic Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i> 
+        <h2>Roaming GO</h2>
+        <p>Designed a fashion e-commerce application using Figma with screens for Home, Men's wear, women's wear, kids 
+            wear, Accessories, cart and Profile. Implemented a server-side RESTful API using Node.js to handle requests and 
+            responses for the different screens of the application. </p>
+            <p>Developed API endpoints and methods for fetching and filtering data related to fashionable clothes, trending 
+                collections, and user profiles. Ensured a smooth and intuitive user experience with consistent UI design patterns, 
+                clear visual hierarchy, easy-to-read typography, and accessibility standards. Tested the API endpoints using tools 
+                such as Postman or Swagger to ensure they are working as expected, and handled error responses, input 
+                validation, and secure authentication/authorization mechanism.  </p>
+       
+            </div>
+            <div>
+                <i class="fas fa-crop"></i>
+        <h2>Wirefly</h2>
+        <p>
+            Wirefly is a network plan finder application implemented using Java, JavaScript, Node.js, React.js, and MongoDB. It offers users an easy platform to find and join mobile plans. Technical skills used include Java, Node.js, and MongoDB for backend development, React.js for frontend development, and thorough QA/QC processes. The Java and Node.js combination ensured a scalable and reliable backend infrastructure, while React.js provided a dynamic user interface. MongoDB served as the NoSQL database for efficient data storage and retrieval. QA/QC activities included code testing with JUnit and Jest, usability testing, and incorporating user feedback. The application successfully met its objectives by delivering a seamless user experience for discovering and joining mobile plans.</p>
+        
+            </div>
+            <div>
+                <i class="fas fa-light fa-ruler-horizontal" style="color: #ffffff;"></i>
+        <h2>Pet Care Web Application 2.0</h2>
+        <p> Developed the Pet care web application using the Spring Boot framework, Hibernate ORM, and MariaDB as the relational database management system. The application employed RESTful web services, implemented through Spring Boot's annotated controllers, to handle HTTP requests and responses. Hibernate was integrated with MariaDB to enable Object-Relational Mapping (ORM) and manage database transactions effectively. Additionally, real-time communication functionality was incorporated using Socket.IO for seamless chatbot interactions with pet professionals. Spring Boot facilitated easy configuration and deployment, while Hibernate streamlined the object-to-database mapping process, reducing the need for manual SQL queries. The REST principles were followed to maintain a scalable and maintainable architecture. Socket.IO, a JavaScript library, enabled bi-directional communication between the client and server, enhancing the chatbot experience. </p>
+        
+            </div>
+
+
+        </div>
+        
+    </div>
+</div>
+
+
+<!-- Certifications -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> Certifications </h1>
+        <div class="work-list">
+           
+            <div class="work">
+                <img src="Meta FE certificate.png">
+                <div class="layer">
+                    <h3>Meta certification </h3>
+                    <p>
+                         I have developed strong skills in HTML, CSS, and JavaScript, allowing me to build interactive and visually appealing websites. I am proficient in writing clean and well-structured code, and I have a solid understanding of front-end frameworks and libraries such as Bootstrap and React.During the certification program, I completed various projects, including building a responsive portfolio website, creating a dynamic photo gallery with JavaScript, and developing a web application with user authentication using Firebase. These projects gave me hands-on experience in implementing front-end techniques and solving real-world challenges.I have a strong understanding of performance optimization techniques, including image optimization, minification, and caching. By implementing these strategies, I have significantly improved load times and overall website performance
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="work">
+                <img src="meta back end.png">
+                <div class="layer">
+                    <h3>Meta certification</h3>
+                    <p>
+                        I have developed strong skills in Java and Java frameworks for backend development, such as Spring and Hibernate. I am proficient in building RESTful APIs, handling database operations, and implementing server-side business logic.During the certification program, I worked on various Java backend projects. For instance, I developed a RESTful API for a customer management system, implemented authentication and authorization using Spring Security, and optimized database queries for improved performance.I have a solid understanding of design patterns and architectural principles for building robust and maintainable Java backend systems. I am familiar with patterns like MVC (Model-View-Controller), Dependency Injection, and layered architecture.I prioritize testing in my Java backend development workflow. I write unit tests using frameworks like JUnit and Mockito, perform integration testing, and follow code review practices to ensure high-quality code and minimize bugs.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+      
+    </div>
+</div>
+
+<!-- --------contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> bommareddy.d@northeastern.edu</p>
+                <p><i class="fa-solid fa-phone-volume"></i> (857)869-9074</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+
+            <a href="Dheeraj B (FE).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email name=Email" placeholder="Your email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+                <span id="msg">
+                    
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Dheeraj Reddy</p>
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxY7Ljvohl8GKGwLYYYe2MKW9VcUo5JyF8bs_-f7hQ75lk-iQ-42PUxXBmVFRJFRecvkw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent succesfully"
+    setTimeout(function(){
+        msg.innerHTML = ""
+    },5000) 
+    form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+</body>
+
+</html>
